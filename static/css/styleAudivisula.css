@@ -1,24 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-
-
+body{
+    background-color: black;
+}
 .header_video{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-}
-.header_video video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
 }
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 28.5rem;
+    margin-right: 30rem;
 }
 .nav_header ul{
     list-style: none;
@@ -51,6 +42,7 @@ img{
     width: 13rem;
 }
 .redes_sociales{
+    position: relative;
     transform: translateY(44rem);
     gap: 1rem;
     display: flex;
@@ -71,4 +63,39 @@ img{
 .redes_sociales i:hover{
     -webkit-text-stroke: 1px #ffffffce;
     font-size: 2.9rem;
+}
+.galeria{
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.galeria img{
+    padding: 0.2rem;
+    height: 35rem;
+    width: 100%;
+}
+.text-img{
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center; /* Centra horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.galeria .tex-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    margin: 0;
+}
+.tex-video h4{
+    font-size: 2rem;
+    color: aliceblue;
 }
