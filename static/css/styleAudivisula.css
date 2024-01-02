@@ -99,3 +99,6 @@ img{
     font-size: 2rem;
     color: aliceblue;
 }
+.tex-video h4:hover{
+    -webkit-text-stroke: 1px #ffffffce;
+}
