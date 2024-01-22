@@ -6,6 +6,7 @@
     <title>Biografia</title>
     <link rel="stylesheet" href="static/css/biografia.css">
     <link rel="icon" href="static/img/logo.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/ca5df22e22.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,32 +14,44 @@
         <div class="logo">
             <img src="static/img/marianlogo.png" alt="" class="">  
         </div>
-        <nav class="nav_header">
+        <nav id="nav" class="nav_header">
             <ul>
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="audioVisual.html">AUDIOVISUAL</a></li>
-                <li><a href="#">BIOGRAFIA</a></li>
+                <li><a href="audioVisual.html">MARIA.NERO.DJ</a></li>
+                <li><a href="biografia.html">BIOGRAFIA</a></li>
             </ul>
-        </nav>    
+        </nav>
+        <div class="logo-menu">
+            <span id="btn-menu" class="material-symbols-outlined icon-menu">
+                menu
+            </span>    
     </header>
     <section class="bio">
-        <div class="img-bio">
-            <img src="static/img/foto-marian.jpg" alt="foto-peril">
-        </div>
-        <div class="text-bio">
+        <div id="text" class="text-bio">
             <p>
                 Mariano Rodríguez, realizador audiovisual desde 2011, es un director, productor y postproductor de videos musicales del Hip Hop argentino.
                 También participa activamente como Dj, productor general y organizador de eventos. Su visión nace desdeel Hip Hop para capturar la esencia del artista y plasmarla en imágenes. Actualmente se encuentra en Merlo, San Luis, Argentina.
             </p>
         </div>
+        <img id="img" class="imagenDefondo" src="static/img/fotobiografia.jpg" alt="foto-biografia-marianero">
+        <article id="articulo-nav" class="articulo">
+            <ul class="nav-mobile">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="audioVisual.html">AUDIOVISUAL</a></li>
+                <li><a href="audioVisual.html">MARIA.NERO.DJ</a></li>
+                <li><a href="biografia.html">BIOGRAFIA</a></li>
+            </ul>
+        </article>
         <article>
-            <ul class="redes_sociales">
-            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="https://www.instagram.com/marian.ero/"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/@marianero"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://open.spotify.com/intl-es/artist/4slIca4ldeA66QQl9L8krL"><i class="fa-brands fa-spotify"></i></a></li>
-        </ul>
-    </article>
+            <ul id="redes" class="redes_sociales">
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="insta"><a href="https://www.instagram.com/marian.ero/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/@marianero"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="spoty"><a href="https://open.spotify.com/intl-es/artist/4slIca4ldeA66QQl9L8krL"><i class="fa-brands fa-spotify"></i></a></li>
+            </ul>
+        </article>
     </section>
 </body>
+<script src="static/JS/biografia.js"></script>
 </html>

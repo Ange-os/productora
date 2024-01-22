@@ -4,14 +4,16 @@ body{
 }
 .header_video{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 30rem;
+    margin-right: 26.8rem;
 }
 .nav_header ul{
+    padding: 0;
     list-style: none;
     display: flex;
 }
@@ -20,7 +22,7 @@ body{
     padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: antiquewhite;
 }
@@ -37,11 +39,39 @@ body{
     padding-left: 5rem;
     padding-top: 1.5rem;
 }
+.logo-menu{
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(120px);
+}
+.nav-mobile{
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+}
+.nav-mobile li a{
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    text-decoration: none;
+}
 img{
     height: 7rem;
     width: 13rem;
 }
 .redes_sociales{
+    padding: 0;
     position: relative;
     transform: translateY(44rem);
     gap: 1rem;
@@ -56,7 +86,7 @@ img{
 }
 
 .redes_sociales i{
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: aliceblue;
     transition: 0.5s;
 }
@@ -75,7 +105,7 @@ img{
 }
 .galeria img{
     padding: 0.2rem;
-    height: 35rem;
+    height: 42rem;
     width: 70rem;
 }
 .text-img{
@@ -96,9 +126,83 @@ img{
     margin: 0;
 }
 .tex-video h4{
-    font-size: 2rem;
-    color: aliceblue;
+    font-size: 3.1rem;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px #000000;
 }
-.tex-video h4:hover{
-    -webkit-text-stroke: 1px #ffffffce;
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+    .header_video{
+        display: flex;
+        align-items: center;
+    }
+    .nav_header{
+        margin: 0;
+    }
+    .nav_header ul{
+        padding: 0;
+    }
+    .nav_header ul li{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .logo{
+        padding-left: 0;
+    }
+    .redes_sociales i{
+        font-size: 2rem;
+    }
+    .redes_sociales{
+        gap: 1.5rem;
+        transform: translateY(40rem);
+    }
+    /* Puedes agregar más estilos específicos para pantallas medianas aquí */
+}
+@media only screen and (min-width: 300px) and (max-width:800px){
+    .nav_header{
+        display: none;
+    }
+    .logo{
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+    .logo img{
+        height: 80px;
+        width: 140px;
+    }
+    .logo-menu{
+        display: flex;  
+        padding-top: 1rem;
+        padding-left: 1rem;
+        transform: translatex(20%);
+        
+    }
+    .logo-menu span{
+        font-size: 3rem;
+        color: #ffffff;
+        transition: all 2s;
+    }
+    .redes_sociales{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        transform: translateY(10rem);
+    }
+    .redes_sociales i{
+        font-size: 4rem;
+    }
+    
+    .galeria img{
+        padding: 0;
+        height: 22rem;
+        width: 32rem;
+    }
+    .tex-video h4{
+        font-size: 2rem;
+    }
+    .insta{
+        transform: translateX(150%);
+    }
+    .spoty{
+        transform: translateX(-150%) translateY(-270%);
+    }
 }
