@@ -83,7 +83,7 @@ img{
 }
 .redes_sociales{
     padding: 0;
-    transform: translateY(50rem);
+    transform: translateY(40rem);
     gap: 1rem;
     display: flex;
     list-style: none;
