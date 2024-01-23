@@ -10,7 +10,7 @@ body{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 26.8rem;
+    margin-right: 16.8rem;
 }
 .nav_header ul{
     padding: 0;
@@ -22,7 +22,7 @@ body{
     padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: antiquewhite;
 }
@@ -92,7 +92,7 @@ img{
 }
 .redes_sociales i:hover{
     -webkit-text-stroke: 1px #ffffffce;
-    font-size: 2.9rem;
+    font-size: 2rem;
 }
 .galeria{
     position: relative;
@@ -126,7 +126,7 @@ img{
     margin: 0;
 }
 .tex-video h4{
-    font-size: 3.1rem;
+    font-size: 2.6rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px #000000;
 }
@@ -197,7 +197,7 @@ img{
         width: 32rem;
     }
     .tex-video h4{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .insta{
         transform: translateX(150%);

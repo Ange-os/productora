@@ -19,7 +19,7 @@ btnMenu.addEventListener('click', function(){
         nav.classList.add = 'articulo'
         video.style.display = 'none'
     }else{
-        btnMenu.innerHTML = 'menu'
+        btnMenu.innerHTML = 'drag_handle'
         redes.style.display = 'none'
         nav.classList.remove = 'articulo'
         nav.style.display = 'none'

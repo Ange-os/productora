@@ -21,7 +21,7 @@ btnMenu.addEventListener('click', function(){
     }else{
         img.style.display = 'block'
         text.style.display = 'flex'
-        btnMenu.innerHTML = 'menu'
+        btnMenu.innerHTML = 'drag_handle'
         redes.style.display = 'none'
         nav.classList.remove = 'articulo'
         nav.style.display = 'none'

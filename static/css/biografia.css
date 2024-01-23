@@ -22,7 +22,7 @@ body{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 28rem;
+    margin-right: 18rem;
 }
 .nav_header ul{
     padding: 0;
@@ -34,7 +34,7 @@ body{
     padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #ffffff;
 }
@@ -87,13 +87,13 @@ body{
 }
 .text-bio{
     margin: 0;
-    transform: translateY(-70px);
+    transform: translateY(-30px);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgba(105, 101, 35, 0.15);
+    background-color: rgba(82, 81, 69, 0.226);
 }
 .text-bio p{
     font-family: 'Archivo';
@@ -132,7 +132,7 @@ img{
 }
 .redes_sociales i:hover{
     -webkit-text-stroke: 1px #ffffffce;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{

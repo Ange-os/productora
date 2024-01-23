@@ -17,7 +17,7 @@ btnMenu.addEventListener('click', function(){
         nav.classList.add = 'articulo'
     }else{
         galeria.style.display = 'flex'
-        btnMenu.innerHTML = 'menu'
+        btnMenu.innerHTML = 'drag_handle'
         redes.style.display = 'none'
         nav.classList.remove = 'articulo'
         nav.style.display = 'none'

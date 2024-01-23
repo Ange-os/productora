@@ -21,7 +21,7 @@ video{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 28rem;
+    margin-right: 18rem;
 }
 .nav_header ul{
     padding: 0;
@@ -33,7 +33,7 @@ video{
     padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #ffffff;
 }
@@ -96,14 +96,14 @@ img{
 }
 
 .redes_sociales i{
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: aliceblue;
     transition: 0.5s;
 }
 
 .redes_sociales i:hover{
     -webkit-text-stroke: 1px #ffffffce;
-    font-size: 2.9rem;
+    font-size: 2rem;
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{
@@ -154,7 +154,7 @@ img{
     .logo-menu span{
         font-size: 3rem;
         color: #ffffff;
-        transition: all 2s;
+        transition: all 1s;
     }
     .redes_sociales{
         flex-direction: column;
