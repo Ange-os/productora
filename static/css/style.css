@@ -65,7 +65,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(120px);
+    transform: translateY(1px);
 }
 .nav-mobile{
     padding: 0;
@@ -76,10 +76,11 @@ img{
     text-align: center;
 }
 .nav-mobile li a{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #ffffff;
     margin-top: 2rem;
-    text-decoration: none;
+    
+    text-decoration: underline;
 }
 .redes_sociales{
     padding: 0;
@@ -160,10 +161,10 @@ img{
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
-        transform: translateY(10rem);
+        transform: translateY(1rem);
     }
     .redes_sociales i{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .insta{
         transform: translateX(150%);
