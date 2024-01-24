@@ -76,7 +76,7 @@ img{
     text-align: center;
 }
 .nav-mobile li a{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: #ffffff;
     margin-top: 2rem;
     
@@ -84,7 +84,7 @@ img{
 }
 .redes_sociales{
     padding: 0;
-    transform: translateY(40rem);
+    transform: translateY(30rem);
     gap: 1rem;
     display: flex;
     list-style: none;
@@ -142,8 +142,8 @@ img{
         padding-right: 1rem;
     }
     .logo img{
-        height: 80px;
-        width: 140px;
+        height: 60px;
+        width: 120px;
     }
     .logo-menu{
         display: flex;  
@@ -158,18 +158,11 @@ img{
         transition: all 1s;
     }
     .redes_sociales{
-        flex-direction: column;
         align-items: center;
         gap: 1.5rem;
-        transform: translateY(1rem);
+        transform: translateY(-1rem);
     }
     .redes_sociales i{
-        font-size: 3rem;
-    }
-    .insta{
-        transform: translateX(150%);
-    }
-    .spoty{
-        transform: translateX(-150%) translateY(-270%);
+        font-size: 2.8rem;
     }
 }
