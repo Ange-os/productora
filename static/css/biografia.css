@@ -187,7 +187,7 @@ img{
         transition: all 2s;
     }
     .redes_sociales{
-        transform: translateY(-29rem);
+        transform: translateY(-19rem);
         align-items: center;
         gap: 1.5rem;
     }
