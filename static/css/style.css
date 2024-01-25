@@ -79,12 +79,11 @@ img{
     font-size: 2.4rem;
     color: #ffffff;
     margin-top: 2rem;
-    
     text-decoration: underline;
 }
 .redes_sociales{
     padding: 0;
-    transform: translateY(30rem);
+    transform: translateY(40rem);
     gap: 1rem;
     display: flex;
     list-style: none;

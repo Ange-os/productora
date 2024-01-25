@@ -62,7 +62,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(-60px);
+    transform: translateY(-420px);
 }
 .nav-mobile{
     text-align: center;
@@ -73,10 +73,10 @@ body{
     justify-content: center;
 }
 .nav-mobile li a{
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #ffffff;
     margin-top: 2rem;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .bio{
     height: 80vh;
@@ -113,6 +113,7 @@ img{
     width: 13rem;
 }
 .redes_sociales{
+    transform: translateY(-27rem);
     padding: 0;
     gap: 1rem;
     display: flex;
@@ -170,8 +171,8 @@ img{
         padding-right: 1rem;
     }
     .logo img{
-        height: 80px;
-        width: 140px;
+        height: 60px;
+        width: 120px;
     }
     .logo-menu{
         display: flex;  
@@ -186,12 +187,11 @@ img{
         transition: all 2s;
     }
     .redes_sociales{
-        flex-direction: column;
         align-items: center;
         gap: 1.5rem;
     }
     .redes_sociales i{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
     .text-bio{
         background-color: rgba(105, 102, 35, 0.199);
@@ -199,11 +199,5 @@ img{
     .text-bio p{
         max-width: 20rem;
         font-size:large;
-    }
-    .insta{
-        transform: translateX(150%);
-    }
-    .spoty{
-        transform: translateX(-150%) translateY(-270%);
     }
 }

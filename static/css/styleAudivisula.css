@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(120px);
+    transform: translateY(1px);
 }
 .nav-mobile{
     padding: 0;
@@ -61,7 +61,7 @@ body{
     justify-content: center;
 }
 .nav-mobile li a{
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #ffffff;
     margin-top: 2rem;
     text-decoration: none;
@@ -182,13 +182,12 @@ img{
         transition: all 2s;
     }
     .redes_sociales{
-        flex-direction: column;
         align-items: center;
         gap: 1.5rem;
-        transform: translateY(10rem);
+        transform: translateY(-1rem);
     }
     .redes_sociales i{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
     
     .galeria img{
@@ -198,11 +197,5 @@ img{
     }
     .tex-video h4{
         font-size: 1.6rem;
-    }
-    .insta{
-        transform: translateX(150%);
-    }
-    .spoty{
-        transform: translateX(-150%) translateY(-270%);
     }
 }
