@@ -62,7 +62,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(1px);
+    transform: translateY(-28rem);
 }
 .nav-mobile{
     text-align: center;
@@ -113,7 +113,7 @@ img{
     width: 13rem;
 }
 .redes_sociales{
-    transform: translateY(-1rem);
+    transform: translateY(44rem);
     padding: 0;
     gap: 1rem;
     display: flex;
@@ -187,6 +187,7 @@ img{
         transition: all 2s;
     }
     .redes_sociales{
+        transform: translateY(-29rem);
         align-items: center;
         gap: 1.5rem;
     }
@@ -198,6 +199,6 @@ img{
     }
     .text-bio p{
         max-width: 20rem;
-        font-size:large;
+        font-size:medium;
     }
 }
