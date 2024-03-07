@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
 
 body{
     background-color: black;
@@ -21,7 +22,7 @@ video{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 18rem;
+    margin-right: 29rem;
 }
 .nav_header ul{
     padding: 0;
@@ -33,7 +34,7 @@ video{
     padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #ffffff;
 }
@@ -48,11 +49,11 @@ video{
 .logo{
     display: flex;
     padding-left: 5rem;
-    padding-top: 1.5rem;
+    padding-top: 1.7rem;
 }
 img{
-    height: 7rem;
-    width: 13rem;
+    height: 6rem;
+    width: 12rem;
 }
 .logo-menu{
     display: none;
@@ -83,7 +84,7 @@ img{
 }
 .redes_sociales{
     padding: 0;
-    transform: translateY(40rem);
+    transform: translateY(43rem);
     gap: 1rem;
     display: flex;
     list-style: none;
@@ -103,7 +104,21 @@ img{
 
 .redes_sociales i:hover{
     -webkit-text-stroke: 1px #ffffffce;
-    font-size: 2rem;
+}
+.footer{
+    display: flex;
+    transform: translateY(42rem);
+    margin-right: 2rem;
+    justify-content: flex-end;
+}
+.content-footer{
+    padding: 2px;
+}
+.footer p{
+    margin: 0;
+    font-size: 10px;
+    color: white;
+    font-family: 'Orbitron';
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{

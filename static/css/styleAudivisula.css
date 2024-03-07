@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+
 body{
     background-color: black;
 }
@@ -10,7 +14,7 @@ body{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 16.8rem;
+    margin-right: 28rem;
 }
 .nav_header ul{
     padding: 0;
@@ -22,7 +26,7 @@ body{
     padding-top: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: antiquewhite;
 }
@@ -67,8 +71,8 @@ body{
     text-decoration: none;
 }
 img{
-    height: 7rem;
-    width: 13rem;
+    height: 6rem;
+    width: 12rem;
 }
 .redes_sociales{
     padding: 0;
@@ -96,7 +100,7 @@ img{
 }
 .galeria{
     position: relative;
-    margin-top: 2rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -106,8 +110,9 @@ img{
 .galeria img{
     padding: 0.2rem;
     height: 42rem;
-    width: 70rem;
+    width: 62rem;
 }
+
 .text-img{
     width: auto;
     height: auto;
@@ -116,7 +121,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}  
 .galeria .tex-video{
     position: absolute;
     top: 50%;
@@ -126,9 +131,24 @@ img{
     margin: 0;
 }
 .tex-video h4{
+    font-family: 'Cormorant Garamond';
     font-size: 2.6rem;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px #000000;
+}
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 2rem;
+    justify-content: flex-end;
+}
+.content-footer{
+    padding: 2px;
+}
+.footer p{
+    margin: 0;
+    font-size: 10px;
+    color: white;
+    font-family: 'Orbitron';
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{
