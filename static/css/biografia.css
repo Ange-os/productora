@@ -23,7 +23,7 @@ body{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 29rem;
+    margin-right: 28rem;
 }
 .nav_header ul{
     padding: 0;
@@ -49,8 +49,12 @@ body{
 }
 .logo{
     display: flex;
-    padding-left: 5rem;
-    padding-top: 1.5rem;
+    padding-left: 8rem;
+    padding-top: 2.6rem;
+}
+img{
+    height: 5rem;
+    width: 10rem;
 }
 .logo-menu{
     display: none;
@@ -97,20 +101,19 @@ body{
     background-color: rgba(51, 51, 51, 0.315);
 }
 .text-bio p{
-    font-family: 'Archivo';
-    max-width: 42rem;
+    font-family: 'Cormorant Garamond';
+    max-width: 50rem;
     text-align: center;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     margin: 10px;
     /*text-shadow: 1px  0px 0px black, 
     0px  1px 0px black,
     -1px  0px 0px black,
     0px -1px 0px black;*/
 }
-img{
-    height: 6rem;
-    width: 12rem;
+.text-bio span{
+    font-size: 24px;
 }
 .redes_sociales{
     transform: translateY(34rem);
@@ -135,20 +138,24 @@ img{
     -webkit-text-stroke: 1px #ffffffce;
     font-size: 2rem;
 }
-.footer{
-    margin-top: -2rem;
+.footer{    
+    border-top: 0.1px solid rgba(255, 255, 255, 0.25);
+    margin-top: 1rem;
     display: flex;
-    margin-right: 2rem;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .content-footer{
     padding: 2px;
 }
 .footer p{
+
     margin: 0;
     font-size: 10px;
     color: white;
     font-family: 'Orbitron';
+}
+.footer span{
+    font-size: 22px;
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{

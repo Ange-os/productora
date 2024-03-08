@@ -22,7 +22,7 @@ video{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 29rem;
+    margin-right: 29.5rem;
 }
 .nav_header ul{
     padding: 0;
@@ -48,12 +48,12 @@ video{
 }
 .logo{
     display: flex;
-    padding-left: 5rem;
-    padding-top: 1.7rem;
+    padding-left: 8rem;
+    padding-top: 2.6rem;
 }
 img{
-    height: 6rem;
-    width: 12rem;
+    height: 5rem;
+    width: 10rem;
 }
 .logo-menu{
     display: none;
@@ -106,10 +106,10 @@ img{
     -webkit-text-stroke: 1px #ffffffce;
 }
 .footer{
+    border-top: 0.1px solid rgba(255, 255, 255, 0.25);
     display: flex;
-    transform: translateY(42rem);
-    margin-right: 2rem;
-    justify-content: flex-end;
+    transform: translateY(43rem);
+    justify-content: center;
 }
 .content-footer{
     padding: 2px;
@@ -119,6 +119,9 @@ img{
     font-size: 10px;
     color: white;
     font-family: 'Orbitron';
+}
+.footer span{
+    font-size: 22px;
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{
