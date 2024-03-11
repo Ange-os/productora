@@ -38,6 +38,10 @@ body{
     cursor: pointer;
     text-decoration: underline;
 }
+.nav_header ul .aqui{
+    color: rgb(180, 180, 180);
+    text-decoration: underline;
+}
 .logo{
     display: flex;
     padding-left: 8rem;
@@ -109,8 +113,8 @@ img{
 }
 .galeria img{
     padding: 0.1rem;
-    height: 600px;
-    width: 900px;
+    height: 550px;
+    width: 850px;
 }
 .text-img{
     width: auto;
@@ -135,7 +139,6 @@ img{
     color: rgb(255, 255, 255);
 }
 .footer{
-    border-top: 0.1px solid rgba(255, 255, 255, 0.25);
     margin-top: 2rem;
     display: flex;
     margin-left: 2rem;
@@ -146,12 +149,12 @@ img{
 }
 .footer p{
     margin: 0;
-    font-size: 10px;
+    font-size: 8px;
     color: white;
     font-family: 'Orbitron';
 }
 .footer span{
-    font-size: 22px;
+    font-size: 15px;
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{

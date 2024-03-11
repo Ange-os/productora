@@ -23,7 +23,7 @@ body{
 .nav_header{
     display: flex;
     padding-top: 0.5rem;
-    margin-right: 28rem;
+    margin-right: 29rem;
 }
 .nav_header ul{
     padding: 0;
@@ -45,6 +45,10 @@ body{
 }
 .nav_header ul li a:hover{
     cursor: pointer;
+    text-decoration: underline;
+}
+.nav_header ul .aqui{
+    color: rgb(180, 180, 180);
     text-decoration: underline;
 }
 .logo{
@@ -98,19 +102,14 @@ img{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgba(51, 51, 51, 0.315);
 }
 .text-bio p{
     font-family: 'Cormorant Garamond';
-    max-width: 50rem;
+    max-width: 55rem;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
-    /*text-shadow: 1px  0px 0px black, 
-    0px  1px 0px black,
-    -1px  0px 0px black,
-    0px -1px 0px black;*/
 }
 .text-bio span{
     font-size: 24px;
@@ -139,23 +138,21 @@ img{
     font-size: 2rem;
 }
 .footer{    
-    border-top: 0.1px solid rgba(255, 255, 255, 0.25);
     margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
 .content-footer{
-    padding: 2px;
+    padding-top: 6px;
 }
 .footer p{
-
     margin: 0;
-    font-size: 10px;
+    font-size: 8px;
     color: white;
     font-family: 'Orbitron';
 }
 .footer span{
-    font-size: 22px;
+    font-size: 15px;
 }
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
     .header_video{
