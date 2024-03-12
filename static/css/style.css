@@ -84,7 +84,7 @@ img{
     font-size: 2.4rem;
     color: #ffffff;
     margin-top: 2rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .redes_sociales{
     padding: 0;
@@ -185,5 +185,8 @@ img{
     }
     .redes_sociales i{
         font-size: 2.8rem;
+    }
+    .footer{
+        display: none;
     }
 }
