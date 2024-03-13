@@ -45,10 +45,10 @@ body{
 .logo{
     display: flex;
     padding-left: 8rem;
-    padding-top: 2.6rem;
+    padding-top: 2.3rem;
 }
 img{
-    height: 5rem;
+    height: 6rem;
     width: 10rem;
 }
 .logo-menu{
@@ -113,8 +113,8 @@ img{
 }
 .galeria img{
     padding: 0.1rem;
-    height: 550px;
-    width: 850px;
+    height: 600px;
+    width: 900px;
 }
 .text-img{
     width: auto;
@@ -193,7 +193,7 @@ img{
     }
     .logo img{
         height: 60px;
-        width: 120px;
+        width: 100px;
     }
     .logo-menu{
         display: flex;  
@@ -215,14 +215,16 @@ img{
     .redes_sociales i{
         font-size: 2.8rem;
     }
-    
+    .galeria{
+        margin-top: 20px;
+    }
     .galeria img{
         padding: 0;
-        height: 15rem;
-        width: 22rem;
+        height: 12rem;
+        width: 20rem;
     }
     .tex-video h4{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .footer{
         display: none;

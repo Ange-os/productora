@@ -53,10 +53,10 @@ video{
 .logo{
     display: flex;
     padding-left: 8rem;
-    padding-top: 2.6rem;
+    padding-top: 2.3rem;
 }
 img{
-    height: 5rem;
+    height: 6rem;
     width: 10rem;
 }
 .logo-menu{
@@ -110,7 +110,7 @@ img{
     -webkit-text-stroke: 1px #ffffffce;
 }
 .footer{
-    margin-top: 25px;
+    margin-top: 20px;
     display: flex;
     transform: translateY(43rem);
     justify-content: center;
@@ -164,7 +164,7 @@ img{
     }
     .logo img{
         height: 60px;
-        width: 120px;
+        width: 100px;
     }
     .logo-menu{
         display: flex;  

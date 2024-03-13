@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+@font-face {
+    font-family: cinematografica;
+    src: url(static/font/Cinematografica-Extralight-trial.ttf);
+}
+
 
 body{
     background-color: black;
@@ -54,10 +59,10 @@ body{
 .logo{
     display: flex;
     padding-left: 8rem;
-    padding-top: 2.6rem;
+    padding-top: 2.3rem;
 }
 img{
-    height: 5rem;
+    height: 6rem;
     width: 10rem;
 }
 .logo-menu{
@@ -104,7 +109,7 @@ img{
     border-radius: 10px;
 }
 .text-bio p{
-    font-family: 'Cormorant Garamond';
+    font-family: cinematografica;
     max-width: 55rem;
     text-align: center;
     color: white;
@@ -139,7 +144,7 @@ img{
     font-size: 2rem;
 }
 .footer{    
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
 }
@@ -192,7 +197,7 @@ img{
     }
     .logo img{
         height: 60px;
-        width: 120px;
+        width: 100px;
     }
     .logo-menu{
         display: flex;  
