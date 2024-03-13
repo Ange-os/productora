@@ -118,11 +118,15 @@ img{
 .content-footer{
     padding: 2px;
 }
+@font-face {
+    font-family: cinematografica;
+    src: url(static/font/Cinematografica-Extralight-trial.ttf) format('truetype');
+}
 .footer p{
     margin: 0;
     font-size: 8px;
     color: white;
-    font-family: 'Orbitron';
+    font-family: cinematografica;
 }
 .footer span{
     font-size: 15px;

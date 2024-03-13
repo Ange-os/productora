@@ -1,6 +1,5 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
 
 
 body{
@@ -113,7 +112,7 @@ img{
 }
 .galeria img{
     padding: 0.1rem;
-    height: 600px;
+    height: 550px;
     width: 900px;
 }
 .text-img{
@@ -125,6 +124,10 @@ img{
     flex-direction: column;
     align-items: center;
 }
+@font-face {
+    font-family: cinematografica;
+    src: url(static/font/Cinematografica-Extralight-trial.ttf) format('truetype');
+}
 .galeria .tex-video{
     position: absolute;
     top: 50%;
@@ -132,10 +135,12 @@ img{
     transform: translate(-50%, -50%);
     color: aliceblue;
     margin: 0;
+    font-family: cinematografica;
 }
 .tex-video h4{
-    font-family: 'Cormorant Garamond';
-    font-size: 2.6rem;
+    font-family: cinematografica;
+    font-size: 2.4rem;
+    font-weight: lighter;
     color: rgb(255, 255, 255);
 }
 .footer{
@@ -151,7 +156,7 @@ img{
     margin: 0;
     font-size: 8px;
     color: white;
-    font-family: 'Orbitron';
+    font-family: cinematografica;
 }
 .footer span{
     font-size: 15px;
@@ -224,7 +229,7 @@ img{
         width: 20rem;
     }
     .tex-video h4{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     .footer{
         display: none;

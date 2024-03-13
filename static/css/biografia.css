@@ -117,8 +117,8 @@ img{
     margin: 10px;
 }
 .text-bio span{
-    font-family: 'Cormorant Garamond';
-    font-size: 30px;
+    font-family: cinematografica;
+    font-size: 18px;
 }
 .redes_sociales{
     transform: translateY(34rem);
@@ -144,7 +144,7 @@ img{
     font-size: 2rem;
 }
 .footer{    
-    margin-top: 0.5rem;
+    margin-top: rem;
     display: flex;
     justify-content: center;
 }
@@ -155,7 +155,7 @@ img{
     margin: 0;
     font-size: 8px;
     color: white;
-    font-family: 'Orbitron';
+    font-family: cinematografica;
 }
 .footer span{
     font-size: 15px;
