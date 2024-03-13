@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
 @font-face {
     font-family: cinematografica;
-    src: url(static/font/Cinematografica-Extralight-trial.ttf);
+    src: url(static/font/Cinematografica-Regular-trial.ttf) format('truetype');
 }
 
 
@@ -156,6 +156,7 @@ img{
     font-size: 8px;
     color: white;
     font-family: cinematografica;
+    font-weight: bold;
 }
 .footer span{
     font-size: 15px;
