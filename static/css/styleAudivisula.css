@@ -192,7 +192,7 @@ img{
         padding-right: 1rem;
     }
     .logo img{
-        height: 50px;
+        height: 60px;
         width: 100px;
     }
     .logo-menu{
@@ -219,8 +219,8 @@ img{
     }
     .galeria img{
         padding: 0;
-        height: 12rem;
-        width: 20rem;
+        height: 216px;
+        width: 384px;
     }
     .tex-video h4{
         font-size: 1rem;

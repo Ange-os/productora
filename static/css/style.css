@@ -168,7 +168,7 @@ img{
     }
     .logo img{
         height: 60px;
-        width: 160px;
+        width: 100px;
     }
     .logo-menu{
         display: flex;  
