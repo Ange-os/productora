@@ -13,13 +13,15 @@ nav.style.display = 'none'
 btnMenu.addEventListener('click', function(){
     validacion = !validacion
     if(validacion){
-        btnMenu.innerHTML = 'close'
+        btnMenu.classList.remove('fa-bars') 
+        btnMenu.classList.add('fa-x') 
         redes.style.display = 'flex'
         nav.style.display = 'flex'
         nav.classList.add = 'articulo'
         video.style.display = 'none'
     }else{
-        btnMenu.innerHTML = 'drag_handle'
+        btnMenu.classList.remove('fa-x')
+        btnMenu.classList.add('fa-bars')
         redes.style.display = 'none'
         nav.classList.remove = 'articulo'
         nav.style.display = 'none'

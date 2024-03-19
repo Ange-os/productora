@@ -172,13 +172,13 @@ img{
     }
     .logo-menu{
         display: flex;  
-        padding-top: 1rem;
+        padding-top: 1.8rem;
         padding-left: 1rem;
         transform: translatex(20%);
         
     }
-    .logo-menu span{
-        font-size: 3rem;
+    .logo-menu i{
+        font-size: 2rem;
         color: #ffffff;
         transition: all 1s;
     }

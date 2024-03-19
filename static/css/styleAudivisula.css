@@ -1,6 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 body{
     background-color: black;
@@ -124,10 +123,6 @@ img{
     flex-direction: column;
     align-items: center;
 }
-@font-face {
-    font-family: cinematografica;
-    src: url(static/font/Cinematografica-Extralight-trial.ttf) format('truetype');
-}
 .galeria .tex-video{
     position: absolute;
     top: 50%;
@@ -135,10 +130,10 @@ img{
     transform: translate(-50%, -50%);
     color: aliceblue;
     margin: 0;
-    font-family: cinematografica;
+    font-family: 'Alata';
 }
 .tex-video h4{
-    font-family: cinematografica;
+    font-family: 'Alata';
     font-size: 2.4rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -203,14 +198,13 @@ img{
     .logo-menu{
         display: flex;  
         padding-top: 1rem;
-        padding-left: 1rem;
         transform: translatex(20%);
         
     }
-    .logo-menu span{
-        font-size: 3rem;
+    .logo-menu i{
+        font-size: 2rem;
         color: #ffffff;
-        transition: all 2s;
+        transition: all 1s;
     }
     .redes_sociales{
         align-items: center;

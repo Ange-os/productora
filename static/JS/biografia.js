@@ -14,14 +14,16 @@ btnMenu.addEventListener('click', function(){
     if(validacion){
         img.style.display = 'none'
         text.style.display = 'none'
-        btnMenu.innerHTML = 'close'
+        btnMenu.classList.remove('fa-bars') 
+        btnMenu.classList.add('fa-x') 
         redes.style.display = 'flex'
         nav.style.display = 'flex'
         nav.classList.add = 'articulo'
     }else{
         img.style.display = 'block'
         text.style.display = 'flex'
-        btnMenu.innerHTML = 'drag_handle'
+        btnMenu.classList.remove('fa-x')
+        btnMenu.classList.add('fa-bars')
         redes.style.display = 'none'
         nav.classList.remove = 'articulo'
         nav.style.display = 'none'
