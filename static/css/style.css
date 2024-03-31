@@ -85,6 +85,10 @@ img{
     color: #ffffff;
     margin-top: 2rem;
     text-decoration: none;
+
+}
+.nav-mobile li .local{
+    text-decoration: underline;
 }
 .redes_sociales{
     padding: 0;
